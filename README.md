@@ -12,10 +12,11 @@ five illustrated stories in all (the hero plus Duterte's ICC trial countdown,
 the Flinders Island bushfire still burning, Asia's steadier Friday markets
 and the EU's unfinished budget summit), a pin map of where today happened, a
 UTC timeline, a markets strip and a 14-item "more today" list. Every story
-happened, or was first reported, on 27 November 2026. The image is drawn
-from a hand-written HTML page (`build/page.html`, rendered to `entry.png`
-with headless Chromium); the program just copies it to `/output/entry.png`
-after checking it is a whole PNG inside the limits.
+happened, or was first reported, on 27 November 2026. The image is designed
+and rendered as a React composition with Remotion (`build/NewsImage27.tsx`,
+rendered once to the 1024x1024 `entry.png` committed here); the program just
+copies it to `/output/entry.png` after checking it is a whole PNG inside
+the limits.
 
 ## Run it
 
